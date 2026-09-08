@@ -59,3 +59,20 @@ const pergunta1 = [
         ]
     }
 ] 
+let atual= 0;
+let perguntaAtual;
+
+function mastraperguntas(){
+   perguntaAtual = perguntas[atual]
+   caixaPerguntas.textcontent = perguntaatual.enunciado;
+}
+
+fuction mostraralternativa(){
+    for(const alternativa of perguntaAtual.alternativas){
+        const botaoalternativa
+    }
+    }
+
+
+mostrarpergunta();
+
